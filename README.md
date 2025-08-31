@@ -20,7 +20,7 @@ Then active the virtual environment:
 Install the required dependencies:
 
 ```bash
-pip install -e ".[dev]"
+pip install -r requirements.txt
 ```
 
 ### Running Dagster
