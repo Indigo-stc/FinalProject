@@ -51,7 +51,6 @@ Se uso el diseño ya que permite:
 
 - Presencia de Nulos que podrian afectar si no se realiza un correcto procesamiento.
 - Duplicados no detectados.
-- Algunos factores de crecimiento extremadamente altos, indicando posibles errores de reporte diario.
 - La incidencia semanal es consistente dentro de rangos esperados tras limpieza.
 
 ---
@@ -72,7 +71,7 @@ Se uso el diseño ya que permite:
 | Métrica | Descripción | Observaciones |
 |---------|------------|---------------|
 | Incidencia 7d | Casos por 100k habitantes | Promedio móvil suave y razonable |
-| Factor de crecimiento | Ratio casos semana actual vs semana anterior | Algunos outliers >10 eliminados para análisis |
+| Factor de crecimiento | Ratio casos semana actual vs semana anterior | Sin deteccion de Outliers > 10 en el análisis |
 
 ### Control de calidad
 
@@ -80,10 +79,11 @@ Se uso el diseño ya que permite:
 |-------|--------|----------------|
 | Columnas clave no nulas | Falló | 16,958 |
 | Unicidad country+date | OK | 0 |
-| Factor de crecimiento ≤10 | OK | según país y semana |
+| Factor de crecimiento ≤ 10 | OK | según país y semana |
 | Incidencia 7d 0–2000 | OK | según país y semana |
 
 ---
+
 
 
 
