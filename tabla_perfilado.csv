@@ -1,0 +1,3 @@
+columna,tipo_dato,min,max,%_faltantes,fecha_min,fecha_max
+new_cases,float64,0.0,8401906.0,3.3069199902979185,2020-01-01,2025-12-31
+people_vaccinated,float64,,,84.91001701683922,2020-01-01,2025-12-31

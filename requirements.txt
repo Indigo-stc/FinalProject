@@ -1,0 +1,10 @@
+create-dagster
+dagster
+dagster-webserver
+dagster-dg-cli
+pandas
+duckdb
+pyarrow
+openpyxl
+requests
+XlsxWriter
